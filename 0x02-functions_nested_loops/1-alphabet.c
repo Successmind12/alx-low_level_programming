@@ -1,27 +1,19 @@
 #include "main.h"
 
+/**
+ * print_alphabet - Begin entry
+ * Return : 0
+ */
 
-
-int main()
-
-{	
-
-		/* Get the character to be writtten */
+void print_alphabet(void)
+{
+	char c = 'a';
+	
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
+	}
 		
-		
-		void print_alphabet(void)
-		{
-			
-		  char c = 'a';
-
-	       /* Write the character to stdout */
-
-	            for (c = 'a'; c <= 'z'; c++)
-		       { 
-                         _putchar(char c);
-	               }   
-	       	  _putchar('\n');
-                
-		}
-return (0);
-} 
+	_putchar('\n');
+}           													
