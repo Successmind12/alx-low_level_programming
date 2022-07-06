@@ -7,14 +7,21 @@ int main()
 {	
 
 		/* Get the character to be writtten */
-
-		char ch = 'a';
+		
+		
+		void print_alphabet(void)
+		{
+			
+		  char c = 'a';
 
 	       /* Write the character to stdout */
 
-	        for (ch = 'a'; ch <= 'z'; ch++ )
-                putchar(ch);
-                putchar('\n');
-                return (0);
-
+	            for (c = 'a'; c <= 'z'; c++)
+		       { 
+                         _putchar(char c);
+	               }   
+	       	  _putchar('\n');
+                
+		}
+return (0);
 } 
