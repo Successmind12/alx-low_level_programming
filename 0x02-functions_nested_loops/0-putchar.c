@@ -1,28 +1,36 @@
 #include "main.h"
 
-#define MAXSTRING 40
+/**
+ * main - Entry begins
+ * Return: nothing, return void
+ */
 
-int main(void){
 
-	char message[]= "_putchar\n";
 
-	for (int count = 0; count < MAXSTRING; count++)
+int main(void)
 
-	{ 
+{
 
-			if (message[count] == '\0')
+	putchar('');
 
-					{
+	_putchar('p');
 
-				         putchar('\n');
-                                                       
-					 break;
-                                        }
+	_putchar('u');
 
-				else               
-                                                    
-			        puchar(message[count]);
+	_putchar('t');
 
-	}
+	_putchar('c');
 
-	return 0;
+	_putchar('h');
+
+	_putchar('a');
+
+	_putchar('r');
+
+	_putchar('\n');
+
+
+
+	return (0);
+
+}
