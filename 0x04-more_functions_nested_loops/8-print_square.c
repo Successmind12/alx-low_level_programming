@@ -12,20 +12,17 @@ int i,j;
 
 if(size > 0)
 {	
-int i = 0;
-while(i < size )
-{
-j = 0;
-while(j < size)
+for(i = 0, i < size, i++)
+{ 	
+for(j = 0, j < size, j++)
 {
 _putchar('#');
-j++;
-} 
+}
 _putchar('\n');
-i++;
 }
 }
 else
 {
-_putchar('\n')
+_putchar('\n');
+}
 }
