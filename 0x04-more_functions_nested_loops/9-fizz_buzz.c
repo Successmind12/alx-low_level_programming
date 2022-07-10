@@ -1,43 +1,27 @@
 #include "main.h"
+#include <studio>
 
+/**
+ * main - Entry point
+ * Return: Always 0
+ */
 
-
-
-
-for(i= 1; i < 100; i++)
-
+int main(void)
 {
+int i = 1;
 
-	if(i % 3 == 0)
+for (;  i < 100 ; i++)
+{
+if (i % 3 == 0)
+printf("Fizz ");
+else if (i % 5 == 0)
+printf("Buzz ");
+else if (i % 3 == 0 && i % 5 == 0)
+printf("FizzBuzz ");
+else
+printf("%d ", i);
+}
+print("Buzz\n");
 
-	{
-
-		_putchar("Fizz");
-
-	}
-
-	elseif(i % 5 == 0)
-
-	{
-
-		_putchar("Buzz");
-
-	}
-
-	elseif
-
-	{
-
-		_putchar("FizzBuzz");
-
-	}
-
-	else
-
-	{
-
-		_putchar(i);
-
-	}
-
+return (0);
 }
