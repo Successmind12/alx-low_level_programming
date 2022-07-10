@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * main - check the code
- * Return: Always 0.
+ * mul - multiplies two ints
+ * @a: integer
+ * @b: integer
+ 
+ * Return: c
  */
 
-
 int mul(int a, int b)
-
 {
-
-	 c= a*b;
-
-	  return(c);
-
+	int c;
+	
+	c= a*b;
+	return(c);
 }
 
 
