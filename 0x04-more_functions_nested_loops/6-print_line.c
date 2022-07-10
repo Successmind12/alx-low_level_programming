@@ -1,43 +1,21 @@
 #include "main.h"
 
-
-
 /**
- *
- *  * main - check the code
- *
- *   *
- *
- *    * Return: Always 0.
- *
- *     */
+ * print_line - a function that draws a straight line in the terminal
+ * followed by a new line
+ * @n: An input integer
+ * Return: Always 0.
+ */
 
 void print_line(int n)
-
 {
+int i = 0;
 
-	int i, n;
-
-	if(n = o)
-
-	{
-
-		_putchar('\n');
-
-	}
-
-	while(i < n)
-
-	{
-
-		_putchar('_');
-
-		i++;
-
-	}
-
+if (n > 0)
+{
+for (; i < n; i++)
+_putchar('_');
 }
-
-return (0);
-
+_putchar('\n');
+}
 
