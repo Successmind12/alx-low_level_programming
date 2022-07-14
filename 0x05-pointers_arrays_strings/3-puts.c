@@ -2,14 +2,13 @@
 #include <stdio.h>
 
 /**
- * function that prints a string, followed by a new line, to stdou
- * @n: input parameters include char *str
- * Return: Always 0 
+ * _puts - function that prints a string, followed by a new line, to stdou
+ * @str: string to be printed
  */
 
 void _puts(char *str)
 {
-int i; // positions of each string
+int i; 
 
 for ( i = 0; str[i] != '\0' ; i++)
 {	
