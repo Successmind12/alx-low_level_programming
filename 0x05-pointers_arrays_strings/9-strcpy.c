@@ -6,7 +6,7 @@
  * to the buffer pointed to by dest
  * @dest: destination where value is copied
  * @src: source where value is copied from
- * Return value: returns value copied
+ * Return: returns dest
  */
 
 char *_strcpy(char *dest, char *src)
