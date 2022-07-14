@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_array: is a function that prints n elements of an array of integers,
+ * print_array - is a function that prints n elements of an array of integers,
  * followed by a new line.
  * @n: used to print comma and space
  * @a: used as a pointer that holds value
