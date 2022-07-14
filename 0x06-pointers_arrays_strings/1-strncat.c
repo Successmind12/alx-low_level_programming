@@ -1,6 +1,6 @@
 #include "main.h"
 
-/** 
+/**
  *_strncat - program that concantenates two strings
  *@dest: string destination
  *@src: string source
@@ -8,16 +8,14 @@
  *Return: dest
  */
 
-char *_strncpy(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
-int i;
-for (i = 0; src[i] != '\0'; i++)
+int i, j;
+
+for (i = 0; dest[i] != '\0'; i++)
+for (j = 0; src[j] != '\0' && n > 0; i++, n-- j++)
 {
-dest[i] = src[i];
-}
-for (; n > i; i++)
-{
-dest[i] = '\0';
+dest[i] = src[j];
 }
 
 return (dest);
