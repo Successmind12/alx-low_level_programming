@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * function that prints every other character of a string
+ * puts2 - function that prints every other character of a string
  * starting with the first character, followed by a new line
- * @str: input parameters char *str
+ * @str: variable that holds string to be printed
  */
 
 
