@@ -1,14 +1,16 @@
 #include <stdio.h>
 
 /**
- *main - Entry point
- *Return: Always 0 (Success)
+ *main - the main function
+ *Return: void
  */
+
 int main(void)
 {
-	
-	puts("\"Programming is like building a multilingual puzzle\n");                                        
-	return (0);
-}                   
+char str[70];
 
+char str[70] = "Programming is like writng a multilingual language";
+puts(str);
 
+return (0);
+}
