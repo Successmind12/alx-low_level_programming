@@ -18,7 +18,7 @@ if (size == 0)
 return (NULL);
 }
 
-new_array = malloc(sizeof(char) * size)
+new_array = malloc(sizeof(char) * size);
 
 if (new_array == NULL)
 {
