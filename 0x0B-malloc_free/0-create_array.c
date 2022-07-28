@@ -27,7 +27,7 @@ return (NULL);
 
 for (i = 0; i < size; i++)
 {
-new_array[i] = c
+new_array[i] = c;
 }
 
 return (new_array);
