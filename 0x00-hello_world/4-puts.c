@@ -7,8 +7,12 @@
 
 int main(void)
 {
+char str[70];
 
-puts("\"Programmming is like buliding multilingual puzzle");
+char str[70] = "Programming is like writng a multilingual language";
+puts(str);
 
 return (0);
 }
+
+
