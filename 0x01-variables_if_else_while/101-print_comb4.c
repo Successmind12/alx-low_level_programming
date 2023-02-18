@@ -13,17 +13,17 @@ int main(void)
 {
 
 int i, j, k;
-for (i = 0; i <= 9; i++) 
+for (i = 0; i <= 9; i++)
 {
 for (j = 0; j <= 9; j++)
 {
-for (k = 0; k <= 9; k++) 
+for (k = 0; k <= 9; k++)
 {
 int g = ',';
 if (i > j || i > k || j > k)
 continue;
 if (i == 0 && j == 0 && k == 0)
-continue; 
+continue;
 if (i == j || i == k || j == k)
 continue;
 putchar(i + '0');
